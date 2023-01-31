@@ -1,0 +1,18 @@
+
+vertexlitgeneric
+{
+
+	$basetexture models/weapons/v_models/vashts_deagle/front_d
+	$bumpmap models/weapons/v_models/vashts_deagle/front_b
+
+	$phong 1
+	$phongboost 1
+	// $phongexponent 50
+	$phongfresnelranges "[ 1 3 8 ]"
+
+	$detail detail/metal_detail_01
+	$detailscale 8
+	$detailblendfactor 0.8
+	$detailblendmode 0
+
+}

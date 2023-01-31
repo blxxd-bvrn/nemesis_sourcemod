@@ -1,0 +1,17 @@
+
+vertexlitgeneric
+{
+
+	$basetexture models/weapons/v_models/vashts_deagle/grip_d
+	$bumpmap models/weapons/v_models/vashts_deagle/grip_b
+
+	$phong 1
+	$phongboost 1
+	$phongfresnelranges "[ 2 4 6 ]"
+
+	$detail detail/metal_detail_01
+	$detailscale 8
+	$detailblendfactor 0.8
+	$detailblendmode 0
+
+}
