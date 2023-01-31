@@ -1,0 +1,23 @@
+"ShatteredGlass"
+{
+	// base texture is a dummy; we need something here to indicate to the shader
+	// that we've got one though
+	"$basetexture" "Glass/labglass_c2a4_2windowbreak070b"
+
+	"$detail" "Glass/labglass_c2a4_2windowbreak070b"
+	"$envmap" "environment maps/gallery002"
+	"$surfaceprop" "glass"
+	"%keywords" "c17industrial,bms"
+	"$envmapmask" "glass/glasswindowbreak070b_mask"
+//	"$envmapsphere" 1
+	"$translucent" 1
+	"$envmaptint" "[.05 .05 .05]"
+
+	"$nocull" 1
+	"Proxies"
+	{
+		"BreakableSurface"
+		{
+		}
+	}
+}

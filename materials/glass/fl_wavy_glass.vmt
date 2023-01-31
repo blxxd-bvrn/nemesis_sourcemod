@@ -1,0 +1,6 @@
+Refract
+{
+	$normalmap glass/fl_wavy_glass_nm
+ 	$refractamount .04
+ 	$refracttint "[0.90 1.1 1.1]"
+}

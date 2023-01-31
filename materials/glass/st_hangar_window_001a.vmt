@@ -1,0 +1,8 @@
+"LightmappedGeneric"
+{
+	"$basetexture"	"glass\st_hangar_window_001a"
+//	"$basetexturetransform" "center .5 .5 scale 2 2 rotate 0 translate 0 0".
+	"$translucent" "1"
+	"$surfaceprop" "glass"
+	"%keywords" "bms"
+}

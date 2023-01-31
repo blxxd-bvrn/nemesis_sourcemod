@@ -1,0 +1,13 @@
+// primarily used on the security office window in bm_c1a3a
+
+"LightmappedGeneric"
+{
+	"$basetexture"		"glass\unbreakable"
+	"$translucent"		"1"
+	"$envmap"			"env_cubemap"
+	"$envmaptint"		"0.2 0.2 0.2"
+//	"$envmapcontrast"	"1.0"
+	"$envmapmask"		"glass\unbreakable_ref"
+	"$surfaceprop"		"glass"
+	"%keywords"			"bms"
+}

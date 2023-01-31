@@ -1,0 +1,6 @@
+"UnlitGeneric"
+{
+	"$basetexture" "effects/flashlight001"
+	"$scale" 50
+	"$alphatest" 1
+}
