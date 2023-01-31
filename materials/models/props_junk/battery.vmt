@@ -1,0 +1,8 @@
+// this is a community prop
+
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_junk/battery"
+    "$model" 1
+
+}
