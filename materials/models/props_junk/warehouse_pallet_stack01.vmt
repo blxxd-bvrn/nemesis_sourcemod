@@ -1,0 +1,6 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/props_junk/warehouse_pallet_stack01"
+    "$model" 1
+
+}
