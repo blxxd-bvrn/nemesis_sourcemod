@@ -1,0 +1,43 @@
+"Refract" 
+{
+	//"$baseTexture"					"models/water/waterplane1"
+	"$bumpframe" 						"0"
+	
+	"$normalmap" 						"dev/water_normal"
+	"$dudvmap" 							"dev/water_dudv"
+	
+	"$model" 							"1"
+	
+	"$envmap" 							"env_cubemap"
+	"$envmaptint" 						"[1.5 1.5 1.5]"
+//	"$envmapcontrast" 					"1"
+	"$envmapsaturation"					"1"
+	
+	"$refractamount" 					"0.04"
+	"$refracttint" 						"[.8 .9 1]"
+	
+	//"$translucent"					"1"
+	//"$vertexalpha"					"1"
+	"$nocull"							"1"
+	
+	"%keywords"							"bms"
+
+	"Proxies"
+	{
+		"TextureScroll"
+		{
+			"texturescrollvar" 			"$bumptransform"
+			"texturescrollrate" 		.1
+			"texturescrollangle"		 90.00
+		}
+		
+			"AnimatedTexture"
+		{
+			"animatedtexturevar" 		"$normalmap"
+			"animatedtextureframenumvar" "$bumpframe"
+			"animatedtextureframerate" 24.00
+		}
+
+		
+	}
+}
