@@ -1,0 +1,8 @@
+"VertexLitGeneric"
+{
+	"$basetexture" "models/items/hospital_medkit/medkit_diffuse"
+	"$bumpmap" "models/items/hospital_medkit/medkit_normal"
+	"$ambientocclusion"  "models/items/hospital_medkit/medkit_ao"
+
+	"$surfaceprop" metal
+}
