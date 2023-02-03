@@ -1,12 +1,10 @@
 "VertexLitGeneric"
 {
-	"$basetexture" "models/humans/marines/gasmask"
-	"$bumpmap" "models/humans/marines/gasmask_normals"
+	"$basetexture" "models/humans/marines/nightvision"
+//	"$bumpmap" "models/humans/marines/nightvision_normal"
+	"$selfillum" "1"
+	"$halflambert" 1
 	"$surfaceprop" "plastic"
-	"$normalmapalphaenvmapmask" 	"1"
-	"$envmap" "env_cubemap"
-	"$envmaptint" 			"[0.3 0.2 0.2]"
-	"$nocull" "1"
 	
 	"$model" 1
 
