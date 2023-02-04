@@ -1,0 +1,96 @@
+
+//////////////////////////////
+// Desert Eagle
+//////////////////////////////
+
+weapondata
+{
+
+	printname "DESERT EAGLE"
+	viewmodel models/weapons/v_de.mdl
+	playermodel models/weapons/w_de.mdl
+	anim_prefix python
+	bucket 1
+	bucket_position 1
+	bucket_360 0
+	bucket_position_360 1
+
+	clip_size 7
+	default_clip 7
+	primary_ammo 357
+
+	weight 0
+	rumble 2
+	item_flags 38
+
+	sounddata
+	{
+
+		// When an NPC reloads
+		reload_npc weapon_pistol.npc_reload
+
+		// Dry-fire
+		empty weapon_pistol.empty
+
+		// When the player fires
+		single_shot weapon_357.single
+
+		// When an NPC fires
+		single_shot_npc weapon_357.single
+
+	}
+
+	texturedata
+	{
+
+		weapon
+		{
+
+			font weaponicons
+			character e
+
+		}
+
+		weapon_s
+		{ 
+
+			font weaponiconsselected
+			character e
+
+		}
+
+		weapon_small
+		{
+
+			font weaponiconssmall
+			character e
+
+		}
+
+		ammo
+		{
+
+			font weaponiconssmall
+			character q
+
+		}
+
+		crosshair
+		{
+
+			font crosshairs
+			character Q
+
+		}
+
+		autoaim
+		{
+
+			font crosshairs
+			character Q
+
+		}
+
+	}
+
+}

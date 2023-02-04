@@ -1,0 +1,27 @@
+// Choreo version 1
+actor "cringe"
+{
+  channel "voice"
+  {
+    event speak "Gman.cringe"
+    {
+      time 1.225001 5.474253
+      param "Gman.cringe"
+      fixedlength
+      cctype "cc_master"
+      cctoken ""
+    }
+  }
+}
+
+scalesettings
+{
+  "GestureTool" "100"
+  "ExpressionTool" "100"
+  "RampTool" "100"
+  "SceneRampTool" "100"
+  "CChoreoView" "80"
+}
+fps 60
+snap off
+ignorePhonemes off

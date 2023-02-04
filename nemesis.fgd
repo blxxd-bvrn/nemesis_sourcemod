@@ -1,0 +1,12 @@
+//=============================================================================
+//
+// The FGD File for Build: 2003
+//
+//=============================================================================
+
+@include "halflife2.fgd"
+
+
+@NPCClass base(BaseNPC) studio("models/combine_guard.mdl") = npc_combineguard : "Combine Guard"
+[
+]
